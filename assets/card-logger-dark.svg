@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="272" viewBox="0 0 900 272" role="img" aria-label="Logger: Weather stations that take several sensors each and send their logs home over GSM. 15+ years: online, 0.5B+: records logged, 50+: active stations, GSM: multi-sensor uplink">
+<title>Logger: Weather stations that take several sensors each and send their logs home over GSM. 15+ years: online, 0.5B+: records logged, 50+: active stations, GSM: multi-sensor uplink</title>
+<style>
+.trace { animation: trace 2.6s ease-in-out infinite; }
+@keyframes trace { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+.key { animation: press 2.4s ease-in-out infinite; }
+@keyframes press { 0%, 100% { fill-opacity: .9; } 50% { fill-opacity: .2; } }
+.wave { animation: wave 2.4s ease-out infinite; }
+@keyframes wave { 0%, 100% { opacity: .15; } 30% { opacity: 1; } }
+.led { animation: led 1.6s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25; } }
+.sparkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.6); opacity: .5; } }
+.hl { animation: hl 3.2s ease-in-out infinite; }
+@keyframes hl { 0%, 100% { fill-opacity: .12; } 50% { fill-opacity: .35; } }
+.needle { animation: needle 3.2s ease-in-out infinite; }
+@keyframes needle { 0%, 100% { transform: rotate(-55deg); } 50% { transform: rotate(40deg); } }
+.spin { animation: spin 2.4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .trace, .key, .wave, .led, .sparkle, .hl, .needle, .spin { animation: none; }
+  .ping { display: none; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+
+<defs>
+  <radialGradient id="glow" cx="0.9" cy="0.1" r="0.45">
+    <stop offset="0" stop-color="#64ffda" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#64ffda" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="899" height="271" rx="14" fill="#112240" stroke="#233554"/>
+<rect x="0.5" y="0.5" width="899" height="271" rx="14" fill="url(#glow)"/>
+<text x="32" y="44" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" letter-spacing="1.2">WEATHER TELEMETRY · IN PRODUCTION</text>
+<g transform="translate(-287.0 -22.4) scale(1.35)"><path d="M820,100 V44 M806,100 L820,84 L834,100" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="spin" style="transform-origin:820px 44px"><line x1="820" y1="44" x2="820.0" y2="57.0" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="820.0" cy="57.0" r="3.4" fill="#64ffda" fill-opacity="0.35" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="820" y1="44" x2="808.7" y2="37.5" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="808.7" cy="37.5" r="3.4" fill="#64ffda" fill-opacity="0.35" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="820" y1="44" x2="831.3" y2="37.5" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="831.3" cy="37.5" r="3.4" fill="#64ffda" fill-opacity="0.35" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="820" cy="44" r="2.6" fill="#64ffda"/>
+<rect x="810" y="65" width="20" height="14" rx="2" fill="#64ffda" fill-opacity="0.18" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="led" cx="816" cy="72" r="2" fill="#64ffda"/>
+<path class="wave" style="animation-delay:0.00s" d="M835,66 A9,9 0 0 1 835,78" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="wave" style="animation-delay:0.35s" d="M841,62 A16,16 0 0 1 841,82" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="31" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#e6f1ff" letter-spacing="-0.5">Logger</text>
+<text x="32" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#a8b2d1">Weather stations that take several sensors each and send their logs home over GSM.</text>
+<rect x="32" y="134" width="199" height="60" rx="12" fill="#0a192f" stroke="#233554"/>
+<circle cx="62" cy="164" r="17" fill="#64ffda" fill-opacity="0.14"/>
+<circle cx="62" cy="164" r="7.5" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M62,159.5 V164 L65.5,166" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="88" y="161" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e6f1ff">15+ years</text>
+<text x="88" y="179" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="400" fill="#8892b0">online</text>
+<rect x="243" y="134" width="199" height="60" rx="12" fill="#0a192f" stroke="#233554"/>
+<circle cx="273" cy="164" r="17" fill="#64ffda" fill-opacity="0.14"/>
+<ellipse cx="273" cy="159" rx="7" ry="2.5" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M266,159 v10 a7,2.5 0 0 0 14,0 v-10 M266,164 a7,2.5 0 0 0 14,0" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="299" y="161" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e6f1ff">0.5B+</text>
+<text x="299" y="179" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="400" fill="#8892b0">records logged</text>
+<rect x="454" y="134" width="199" height="60" rx="12" fill="#0a192f" stroke="#233554"/>
+<circle cx="484" cy="164" r="17" fill="#64ffda" fill-opacity="0.14"/>
+<path d="M479,172 L484,161 L489,172 M484,161 V172" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M479.5,155.5 a6,6 0 0 0 0,8 M488.5,155.5 a6,6 0 0 1 0,8" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="161" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e6f1ff">50+</text>
+<text x="510" y="179" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="400" fill="#8892b0">active stations</text>
+<rect x="665" y="134" width="199" height="60" rx="12" fill="#0a192f" stroke="#233554"/>
+<circle cx="695" cy="164" r="17" fill="#64ffda" fill-opacity="0.14"/>
+<rect x="688" y="167" width="2.6" height="3" rx="0.8" fill="#64ffda"/><rect x="692" y="164" width="2.6" height="6" rx="0.8" fill="#64ffda"/><rect x="696" y="161" width="2.6" height="9" rx="0.8" fill="#64ffda"/><rect x="700" y="158" width="2.6" height="12" rx="0.8" fill="#64ffda"/>
+<text x="721" y="161" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e6f1ff">GSM</text>
+<text x="721" y="179" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="400" fill="#8892b0">multi-sensor uplink</text>
+<rect x="32.0" y="224" width="70.4" height="24" rx="12.0" fill="#64ffda" fill-opacity="0.12" stroke="#64ffda" stroke-opacity="0.6"/>
+<text x="67.2" y="239.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" text-anchor="middle">Hardware</text>
+<rect x="108.4" y="224" width="70.4" height="24" rx="12.0" fill="#64ffda" fill-opacity="0.12" stroke="#64ffda" stroke-opacity="0.6"/>
+<text x="143.6" y="239.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" text-anchor="middle">Firmware</text>
+<rect x="184.8" y="224" width="37.4" height="24" rx="12.0" fill="#0a192f" stroke="#233554"/>
+<text x="203.5" y="239.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#a8b2d1" text-anchor="middle">GSM</text>
+<rect x="228.2" y="224" width="96.8" height="24" rx="12.0" fill="#0a192f" stroke="#233554"/>
+<text x="276.6" y="239.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#a8b2d1" text-anchor="middle">Multi-sensor</text>
+<rect x="331.0" y="224" width="77.0" height="24" rx="12.0" fill="#0a192f" stroke="#233554"/>
+<text x="369.5" y="239.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#a8b2d1" text-anchor="middle">Telemetry</text>
+
+</svg>

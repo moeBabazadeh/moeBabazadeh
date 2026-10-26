@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="214" viewBox="0 0 440 214" role="img" aria-label="Mini PLC: A compact PLC controller built on STM microcontrollers: the board and firmware for automation on a small footprint.">
+<title>Mini PLC: A compact PLC controller built on STM microcontrollers: the board and firmware for automation on a small footprint.</title>
+<style>
+.trace { animation: trace 2.6s ease-in-out infinite; }
+@keyframes trace { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+.key { animation: press 2.4s ease-in-out infinite; }
+@keyframes press { 0%, 100% { fill-opacity: .9; } 50% { fill-opacity: .2; } }
+.wave { animation: wave 2.4s ease-out infinite; }
+@keyframes wave { 0%, 100% { opacity: .15; } 30% { opacity: 1; } }
+.led { animation: led 1.6s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25; } }
+.sparkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.6); opacity: .5; } }
+.hl { animation: hl 3.2s ease-in-out infinite; }
+@keyframes hl { 0%, 100% { fill-opacity: .12; } 50% { fill-opacity: .35; } }
+.needle { animation: needle 3.2s ease-in-out infinite; }
+@keyframes needle { 0%, 100% { transform: rotate(-55deg); } 50% { transform: rotate(40deg); } }
+.spin { animation: spin 2.4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .trace, .key, .wave, .led, .sparkle, .hl, .needle, .spin { animation: none; }
+  .ping { display: none; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+
+<defs>
+  <radialGradient id="glow" cx="0.88" cy="0.2" r="0.5">
+    <stop offset="0" stop-color="#0d9488" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#0d9488" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="439" height="213" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="0.5" y="0.5" width="439" height="213" rx="14" fill="url(#glow)"/>
+<text x="26" y="40" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0f766e" letter-spacing="1.2">AUTOMATION</text>
+<text x="25" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="23" font-weight="700" fill="#0a192f" letter-spacing="-0.3">Mini PLC</text>
+<text x="26" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#424a53">A compact PLC controller built on STM</text>
+<text x="26" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#424a53">microcontrollers: the board and firmware</text>
+<text x="26" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#424a53">for automation on a small footprint.</text>
+<rect x="26.0" y="168" width="70.4" height="24" rx="12.0" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-opacity="0.6"/>
+<text x="61.2" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0f766e" text-anchor="middle">Hardware</text>
+<rect x="102.4" y="168" width="103.4" height="24" rx="12.0" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-opacity="0.6"/>
+<text x="154.1" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0f766e" text-anchor="middle">In production</text>
+<rect x="211.8" y="168" width="37.4" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="230.5" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">STM</text>
+<rect x="255.2" y="168" width="70.4" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="290.4" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">Firmware</text>
+<rect x="331.6" y="168" width="37.4" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="350.3" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">PLC</text>
+<line x1="346" y1="84" x2="422" y2="84" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.45"/>
+<rect x="354" y="32" width="60" height="46" rx="4" fill="#0d9488" fill-opacity="0.10" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="358" y="36" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="358" y="69" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="367" y="36" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="367" y="69" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="376" y="36" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="376" y="69" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="385" y="36" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="385" y="69" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="394" y="36" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="394" y="69" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="403" y="36" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<rect x="403" y="69" width="6" height="5" rx="1" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<circle class="led" style="animation-delay:0.0s" cx="370" cy="56" r="2.4" fill="#0d9488"/>
+<circle class="led" style="animation-delay:0.3s" cx="379" cy="56" r="2.4" fill="#0d9488"/>
+<circle class="led" style="animation-delay:0.6s" cx="388" cy="56" r="2.4" fill="#0d9488"/>
+<circle class="led" style="animation-delay:0.9s" cx="397" cy="56" r="2.4" fill="#0d9488"/>
+
+</svg>

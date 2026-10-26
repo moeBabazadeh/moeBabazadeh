@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="236" viewBox="0 0 272 236" role="img" aria-label="Photo Dedup: Native macOS app that finds duplicate and look-alike photos by how they look. Fully offline, and nothing is ever deleted.">
+<title>Photo Dedup: Native macOS app that finds duplicate and look-alike photos by how they look. Fully offline, and nothing is ever deleted.</title>
+<style>
+.trace { animation: trace 2.6s ease-in-out infinite; }
+@keyframes trace { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+.key { animation: press 2.4s ease-in-out infinite; }
+@keyframes press { 0%, 100% { fill-opacity: .9; } 50% { fill-opacity: .2; } }
+.wave { animation: wave 2.4s ease-out infinite; }
+@keyframes wave { 0%, 100% { opacity: .15; } 30% { opacity: 1; } }
+.led { animation: led 1.6s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25; } }
+.sparkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.6); opacity: .5; } }
+.hl { animation: hl 3.2s ease-in-out infinite; }
+@keyframes hl { 0%, 100% { fill-opacity: .12; } 50% { fill-opacity: .35; } }
+.needle { animation: needle 3.2s ease-in-out infinite; }
+@keyframes needle { 0%, 100% { transform: rotate(-55deg); } 50% { transform: rotate(40deg); } }
+.spin { animation: spin 2.4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .trace, .key, .wave, .led, .sparkle, .hl, .needle, .spin { animation: none; }
+  .ping { display: none; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+
+<defs>
+  <radialGradient id="glow" cx="0.85" cy="0.15" r="0.55">
+    <stop offset="0" stop-color="#64ffda" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#64ffda" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="271" height="235" rx="14" fill="#112240" stroke="#233554"/>
+<rect x="0.5" y="0.5" width="271" height="235" rx="14" fill="url(#glow)"/>
+<text x="20" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#64ffda" letter-spacing="1">MACOS · 2026</text>
+<g transform="translate(44.8 9.6) scale(0.8)"><rect x="198" y="24" width="38" height="32" rx="5" fill="#64ffda" fill-opacity="0.06" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.55" transform="rotate(-8 217 40)"/>
+<rect x="212" y="36" width="38" height="32" rx="5" fill="#64ffda" fill-opacity="0.12" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M216,64 l9,-10 6,6 5,-5 10,9" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="240" cy="44" r="3" fill="#64ffda"/></g>
+<text x="19" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#e6f1ff" letter-spacing="-0.3">Photo Dedup</text>
+<text x="20" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#a8b2d1">Native macOS app that finds</text>
+<text x="20" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#a8b2d1">duplicate and look-alike photos by</text>
+<text x="20" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#a8b2d1">how they look. Fully offline, and</text>
+<text x="20" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#a8b2d1">nothing is ever deleted.</text>
+<rect x="20.0" y="196" width="46.0" height="23" rx="11.5" fill="#0a192f" stroke="#233554"/>
+<text x="43.0" y="211.1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#a8b2d1" text-anchor="middle">Swift</text>
+<rect x="72.0" y="196" width="58.0" height="23" rx="11.5" fill="#0a192f" stroke="#233554"/>
+<text x="101.0" y="211.1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#a8b2d1" text-anchor="middle">SwiftUI</text>
+<rect x="136.0" y="196" width="52.0" height="23" rx="11.5" fill="#0a192f" stroke="#233554"/>
+<text x="162.0" y="211.1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#a8b2d1" text-anchor="middle">Vision</text>
+
+</svg>

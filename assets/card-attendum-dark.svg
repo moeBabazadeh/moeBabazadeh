@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="214" viewBox="0 0 440 214" role="img" aria-label="Attendum: Attendance monitoring live at universities in the UK and US: firmware for the ESP32 card readers and nRF52840 BLE beacons, and the iOS/Android app.">
+<title>Attendum: Attendance monitoring live at universities in the UK and US: firmware for the ESP32 card readers and nRF52840 BLE beacons, and the iOS/Android app.</title>
+<style>
+.trace { animation: trace 2.6s ease-in-out infinite; }
+@keyframes trace { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+.key { animation: press 2.4s ease-in-out infinite; }
+@keyframes press { 0%, 100% { fill-opacity: .9; } 50% { fill-opacity: .2; } }
+.wave { animation: wave 2.4s ease-out infinite; }
+@keyframes wave { 0%, 100% { opacity: .15; } 30% { opacity: 1; } }
+.led { animation: led 1.6s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25; } }
+.sparkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.6); opacity: .5; } }
+.hl { animation: hl 3.2s ease-in-out infinite; }
+@keyframes hl { 0%, 100% { fill-opacity: .12; } 50% { fill-opacity: .35; } }
+.needle { animation: needle 3.2s ease-in-out infinite; }
+@keyframes needle { 0%, 100% { transform: rotate(-55deg); } 50% { transform: rotate(40deg); } }
+.spin { animation: spin 2.4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .trace, .key, .wave, .led, .sparkle, .hl, .needle, .spin { animation: none; }
+  .ping { display: none; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+
+<defs>
+  <radialGradient id="glow" cx="0.88" cy="0.2" r="0.5">
+    <stop offset="0" stop-color="#64ffda" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#64ffda" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="439" height="213" rx="14" fill="#112240" stroke="#233554"/>
+<rect x="0.5" y="0.5" width="439" height="213" rx="14" fill="url(#glow)"/>
+<text x="26" y="40" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" letter-spacing="1.2">HARDWARE + APPS · 2023 → 2025</text>
+<text x="25" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="23" font-weight="700" fill="#e6f1ff" letter-spacing="-0.3">Attendum</text>
+<text x="26" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#a8b2d1">Attendance monitoring live at universities in the</text>
+<text x="26" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#a8b2d1">UK and US: firmware for the ESP32 card readers and</text>
+<text x="26" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#a8b2d1">nRF52840 BLE beacons, and the iOS/Android app.</text>
+<rect x="26.0" y="168" width="37.4" height="24" rx="12.0" fill="#64ffda" fill-opacity="0.12" stroke="#64ffda" stroke-opacity="0.6"/>
+<text x="44.7" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" text-anchor="middle">iOS</text>
+<rect x="69.4" y="168" width="63.8" height="24" rx="12.0" fill="#64ffda" fill-opacity="0.12" stroke="#64ffda" stroke-opacity="0.6"/>
+<text x="101.3" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" text-anchor="middle">Android</text>
+<rect x="139.2" y="168" width="70.4" height="24" rx="12.0" fill="#64ffda" fill-opacity="0.12" stroke="#64ffda" stroke-opacity="0.6"/>
+<text x="174.4" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" text-anchor="middle">Hardware</text>
+<rect x="215.6" y="168" width="37.4" height="24" rx="12.0" fill="#64ffda" fill-opacity="0.12" stroke="#64ffda" stroke-opacity="0.6"/>
+<text x="234.3" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" text-anchor="middle">Web</text>
+<rect x="259.0" y="168" width="50.6" height="24" rx="12.0" fill="#0a192f" stroke="#233554"/>
+<text x="284.3" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#a8b2d1" text-anchor="middle">ESP32</text>
+<rect x="315.6" y="168" width="57.2" height="24" rx="12.0" fill="#0a192f" stroke="#233554"/>
+<text x="344.2" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#a8b2d1" text-anchor="middle">Zephyr</text>
+<rect x="354" y="34" width="26" height="44" rx="7" fill="#64ffda" fill-opacity="0.12" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="led" cx="367" cy="47" r="3" fill="#64ffda"/>
+<line x1="362" y1="66" x2="372" y2="66" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.6"/>
+<path class="wave" style="animation-delay:0.00s" d="M386,47 A13,13 0 0 1 386,65" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="wave" style="animation-delay:0.35s" d="M393,41 A22,22 0 0 1 393,71" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="wave" style="animation-delay:0.70s" d="M400,35 A31,31 0 0 1 400,77" fill="none" stroke="#64ffda" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="524" viewBox="0 0 900 524" role="img" aria-label="2026 → now: Neuroject, CTO; 2026 → now: Neuroship, Chief Full-Stack Engineer · contract; 2024 → 2026: Neuroject, Chief Full-Stack Engineer; 2021 → 2024: 0&amp;1, Lead Frontend Developer → Technical Consultant; 2020 → 2021: Alget.nl, Senior Frontend Developer; 2012 → 2020: Niknam Electronic Rayan, Software → Senior Software Engineer; 2007 → 2012: Freelance, Web developer; 2008 → 2016: University of Tabriz, BSc Electrical Eng. (Control) · MSc Nanotechnology">
+<title>2026 → now: Neuroject, CTO; 2026 → now: Neuroship, Chief Full-Stack Engineer · contract; 2024 → 2026: Neuroject, Chief Full-Stack Engineer; 2021 → 2024: 0&amp;1, Lead Frontend Developer → Technical Consultant; 2020 → 2021: Alget.nl, Senior Frontend Developer; 2012 → 2020: Niknam Electronic Rayan, Software → Senior Software Engineer; 2007 → 2012: Freelance, Web developer; 2008 → 2016: University of Tabriz, BSc Electrical Eng. (Control) · MSc Nanotechnology</title>
+<style>
+.trace { animation: trace 2.6s ease-in-out infinite; }
+@keyframes trace { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+.key { animation: press 2.4s ease-in-out infinite; }
+@keyframes press { 0%, 100% { fill-opacity: .9; } 50% { fill-opacity: .2; } }
+.wave { animation: wave 2.4s ease-out infinite; }
+@keyframes wave { 0%, 100% { opacity: .15; } 30% { opacity: 1; } }
+.led { animation: led 1.6s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25; } }
+.sparkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.6); opacity: .5; } }
+.hl { animation: hl 3.2s ease-in-out infinite; }
+@keyframes hl { 0%, 100% { fill-opacity: .12; } 50% { fill-opacity: .35; } }
+.needle { animation: needle 3.2s ease-in-out infinite; }
+@keyframes needle { 0%, 100% { transform: rotate(-55deg); } 50% { transform: rotate(40deg); } }
+.spin { animation: spin 2.4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .trace, .key, .wave, .led, .sparkle, .hl, .needle, .spin { animation: none; }
+  .ping { display: none; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+
+<defs>
+  <radialGradient id="glow" cx="0.12" cy="0.0" r="0.6">
+    <stop offset="0" stop-color="#64ffda" stop-opacity="0.1"/>
+    <stop offset="1" stop-color="#64ffda" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="899" height="523" rx="14" fill="#112240" stroke="#233554"/>
+<rect x="0.5" y="0.5" width="899" height="523" rx="14" fill="url(#glow)"/>
+<text x="32" y="42" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#64ffda" letter-spacing="1.2">JOURNEY · 2007 → NOW</text>
+<text x="868" y="42" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#8892b0" text-anchor="end">19 years</text>
+<line x1="176" y1="85" x2="176" y2="477" stroke="#233554" stroke-width="2"/>
+<text x="32" y="89" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#8892b0">2026 → now</text>
+<circle class="ping" cx="176" cy="85" r="6" fill="none" stroke="#64ffda"/>
+<circle cx="176" cy="85" r="6" fill="#64ffda"/>
+<text x="200" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16"><tspan font-weight="700" fill="#e6f1ff">Neuroject</tspan><tspan fill="#64ffda"> · CTO</tspan></text>
+<text x="200" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a8b2d1">The alignment layer for construction enterprises: BIM, schedules, budgets and risks, now with AI.</text>
+<text x="32" y="145" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#8892b0">2026 → now</text>
+<circle class="ping" cx="176" cy="141" r="6" fill="none" stroke="#64ffda"/>
+<circle cx="176" cy="141" r="6" fill="#64ffda"/>
+<text x="200" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16"><tspan font-weight="700" fill="#e6f1ff">Neuroship</tspan><tspan fill="#64ffda"> · Chief Full-Stack Engineer · contract</tspan></text>
+<text x="32" y="201" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#8892b0">2024 → 2026</text>
+<circle cx="176" cy="197" r="5" fill="#112240" stroke="#64ffda" stroke-width="2"/>
+<text x="200" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16"><tspan font-weight="700" fill="#e6f1ff">Neuroject</tspan><tspan fill="#64ffda"> · Chief Full-Stack Engineer</tspan></text>
+<text x="200" y="223" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a8b2d1">Led the architecture and build of NeuroBuild on Next.js, Laravel, AWS Amplify and Vapor.</text>
+<text x="32" y="257" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#8892b0">2021 → 2024</text>
+<circle cx="176" cy="253" r="5" fill="#112240" stroke="#64ffda" stroke-width="2"/>
+<text x="200" y="258" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16"><tspan font-weight="700" fill="#e6f1ff">0&amp;1</tspan><tspan fill="#64ffda"> · Lead Frontend Developer → Technical Consultant</tspan></text>
+<text x="200" y="279" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a8b2d1">LMS and exam proctoring with Azure Face API, attendance hardware, apps on both stores.</text>
+<text x="32" y="313" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#8892b0">2020 → 2021</text>
+<circle cx="176" cy="309" r="5" fill="#112240" stroke="#64ffda" stroke-width="2"/>
+<text x="200" y="314" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16"><tspan font-weight="700" fill="#e6f1ff">Alget.nl</tspan><tspan fill="#64ffda"> · Senior Frontend Developer</tspan></text>
+<text x="200" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a8b2d1">A React marketplace that brought local supermarkets online.</text>
+<text x="32" y="369" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#8892b0">2012 → 2020</text>
+<circle cx="176" cy="365" r="5" fill="#112240" stroke="#64ffda" stroke-width="2"/>
+<text x="200" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16"><tspan font-weight="700" fill="#e6f1ff">Niknam Electronic Rayan</tspan><tspan fill="#64ffda"> · Software → Senior Software Engineer</tspan></text>
+<text x="200" y="391" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a8b2d1">IoT platforms and connected devices: monitoring, live GPS tracking and data visualisation.</text>
+<text x="32" y="425" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#8892b0">2007 → 2012</text>
+<circle cx="176" cy="421" r="5" fill="#112240" stroke="#64ffda" stroke-width="2"/>
+<text x="200" y="426" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16"><tspan font-weight="700" fill="#e6f1ff">Freelance</tspan><tspan fill="#64ffda"> · Web developer</tspan></text>
+<text x="200" y="447" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a8b2d1">Websites and web apps in PHP, JavaScript and jQuery.</text>
+<text x="32" y="481" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="400" fill="#8892b0">2008 → 2016</text>
+<rect x="171" y="472" width="10" height="10" fill="#112240" stroke="#64ffda" stroke-width="2" transform="rotate(45 176 477)"/>
+<text x="200" y="482" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16"><tspan font-weight="700" fill="#e6f1ff">University of Tabriz</tspan><tspan fill="#64ffda"> · BSc Electrical Eng. (Control) · MSc Nanotechnology</tspan></text>
+<text x="200" y="503" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a8b2d1">Control systems, robotics and RoboCup.</text>
+</svg>

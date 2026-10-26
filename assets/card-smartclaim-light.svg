@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="SmartClaim: AI-assisted R&amp;D tax credit claims for the UK, Ireland, Australia and South Africa. I work across the FastAPI + pgvector API, the SvelteKit app and the TypeScript SDK, and added its security gates: secret scanning, Semgrep and Trivy on every PR.">
+<title>SmartClaim: AI-assisted R&amp;D tax credit claims for the UK, Ireland, Australia and South Africa. I work across the FastAPI + pgvector API, the SvelteKit app and the TypeScript SDK, and added its security gates: secret scanning, Semgrep and Trivy on every PR.</title>
+<style>
+.block { animation: drop .7s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes drop { from { opacity: 0; transform: translateY(-16px); } to { opacity: 1; transform: none; } }
+.link, .node { animation: fade .8s ease-out 1.4s both; }
+.pulse { animation: fade .4s ease-out 1.6s both; }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+.rise { animation: rise .7s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes rise { from { transform: translateY(10px); } to { transform: none; } }
+.cursor { animation: blink 1.1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .block, .link, .node, .cursor, .rise { animation: none; }
+  .pulse { display: none; }
+}
+
+.trace { animation: trace 2.6s ease-in-out infinite; }
+@keyframes trace { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+.key { animation: press 2.4s ease-in-out infinite; }
+@keyframes press { 0%, 100% { fill-opacity: .9; } 50% { fill-opacity: .2; } }
+.wave { animation: wave 2.4s ease-out infinite; }
+@keyframes wave { 0%, 100% { opacity: .15; } 30% { opacity: 1; } }
+.led { animation: led 1.6s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25; } }
+.sparkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.6); opacity: .5; } }
+.hl { animation: hl 3.2s ease-in-out infinite; }
+@keyframes hl { 0%, 100% { fill-opacity: .12; } 50% { fill-opacity: .35; } }
+.needle { animation: needle 3.2s ease-in-out infinite; }
+@keyframes needle { 0%, 100% { transform: rotate(-55deg); } 50% { transform: rotate(40deg); } }
+.spin { animation: spin 2.4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .trace, .key, .wave, .led, .sparkle, .hl, .needle, .spin { animation: none; }
+  .ping { display: none; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+
+<defs>
+  <radialGradient id="glow" cx="0.86" cy="0.4" r="0.36">
+    <stop offset="0" stop-color="#0d9488" stop-opacity="0.14"/>
+    <stop offset="1" stop-color="#0d9488" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="899" height="239" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="0.5" y="0.5" width="899" height="239" rx="14" fill="url(#glow)"/>
+<text x="32" y="44" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0f766e" letter-spacing="1.2">SMARTCLAIM · 2026 → NOW</text>
+<text x="31" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#0a192f" letter-spacing="-0.5">SmartClaim</text>
+<text x="32" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#424a53">AI-assisted R&amp;D tax credit claims for the UK, Ireland, Australia and South Africa.</text>
+<text x="32" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#424a53">I work across the FastAPI + pgvector API, the SvelteKit app and the TypeScript SDK,</text>
+<text x="32" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#424a53">and added its security gates: secret scanning, Semgrep and Trivy on every PR.</text>
+<rect x="32.0" y="190" width="63.8" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="63.9" y="205.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">FastAPI</text>
+<rect x="101.8" y="190" width="57.2" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="130.4" y="205.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">OpenAI</text>
+<rect x="165.0" y="190" width="70.4" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="200.2" y="205.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">pgvector</text>
+<rect x="241.4" y="190" width="77.0" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="279.9" y="205.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">SvelteKit</text>
+<rect x="324.4" y="190" width="83.6" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="366.2" y="205.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">TypeScript</text>
+<rect x="414.0" y="190" width="83.6" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="455.8" y="205.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">Playwright</text>
+<rect x="503.6" y="190" width="37.4" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="522.3" y="205.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">AWS</text>
+<rect x="738" y="52" width="76" height="100" rx="7" fill="#0d9488" fill-opacity="0.05" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.3" transform="rotate(9 772 108)"/>
+<rect x="734" y="54" width="76" height="100" rx="7" fill="#0d9488" fill-opacity="0.08" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.55" transform="rotate(-5 772 108)"/>
+<path d="M730,56 h56 l16,16 v84 h-72 z" fill="#ffffff"/>
+<path d="M730,56 h56 l16,16 v84 h-72 z" fill="#0d9488" fill-opacity="0.10" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M786,56 v16 h16" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="742" y1="86" x2="790" y2="86" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7"/>
+<rect class="hl" style="animation-delay:0.5s" x="738" y="94" width="44" height="10" rx="3" fill="#0d9488" fill-opacity="0.2"/>
+<line x1="742" y1="99" x2="778" y2="99" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7"/>
+<line x1="742" y1="112" x2="790" y2="112" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7"/>
+<rect class="hl" style="animation-delay:1.5s" x="738" y="120" width="44" height="10" rx="3" fill="#0d9488" fill-opacity="0.2"/>
+<line x1="742" y1="125" x2="778" y2="125" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7"/>
+<line x1="742" y1="138" x2="790" y2="138" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.7"/>
+<path class="sparkle" d="M808,135 Q808,146 819,146 Q808,146 808,157 Q808,146 797,146 Q808,146 808,135 z" fill="#0d9488"/>
+<path class="sparkle" style="animation-delay:.9s" d="M824,116 Q824,122 830,122 Q824,122 824,128 Q824,122 818,122 Q824,122 824,116 z" fill="#0d9488"/>
+<text x="772" y="210" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#59636e" text-anchor="middle">500 commits · 5 repos</text>
+
+</svg>

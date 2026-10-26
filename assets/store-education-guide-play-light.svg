@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="186" height="44" viewBox="0 0 186 44" role="img" aria-label="Education Guide on Google Play">
+<title>Education Guide on Google Play</title>
+<style></style>
+
+<rect x="0.5" y="0.5" width="185" height="43" rx="21.5" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="24" cy="22.0" r="14" fill="#0d9488" fill-opacity="0.14"/>
+<path d="M20,14.5 L31,22.0 L20,29.5 z" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48" y="18" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" font-weight="400" fill="#59636e" letter-spacing="0.8">GOOGLE PLAY</text>
+<text x="48" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#0a192f">Education Guide</text>
+
+</svg>

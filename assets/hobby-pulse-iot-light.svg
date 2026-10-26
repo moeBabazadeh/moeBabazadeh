@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="236" viewBox="0 0 272 236" role="img" aria-label="Pulse IoT: Device telemetry on plain shared PHP hosting: rollups, alarms with hysteresis, OTA firmware, reports. No Composer, npm or build step.">
+<title>Pulse IoT: Device telemetry on plain shared PHP hosting: rollups, alarms with hysteresis, OTA firmware, reports. No Composer, npm or build step.</title>
+<style>
+.trace { animation: trace 2.6s ease-in-out infinite; }
+@keyframes trace { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+.key { animation: press 2.4s ease-in-out infinite; }
+@keyframes press { 0%, 100% { fill-opacity: .9; } 50% { fill-opacity: .2; } }
+.wave { animation: wave 2.4s ease-out infinite; }
+@keyframes wave { 0%, 100% { opacity: .15; } 30% { opacity: 1; } }
+.led { animation: led 1.6s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25; } }
+.sparkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.6); opacity: .5; } }
+.hl { animation: hl 3.2s ease-in-out infinite; }
+@keyframes hl { 0%, 100% { fill-opacity: .12; } 50% { fill-opacity: .35; } }
+.needle { animation: needle 3.2s ease-in-out infinite; }
+@keyframes needle { 0%, 100% { transform: rotate(-55deg); } 50% { transform: rotate(40deg); } }
+.spin { animation: spin 2.4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .trace, .key, .wave, .led, .sparkle, .hl, .needle, .spin { animation: none; }
+  .ping { display: none; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+
+<defs>
+  <radialGradient id="glow" cx="0.85" cy="0.15" r="0.55">
+    <stop offset="0" stop-color="#0d9488" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#0d9488" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="271" height="235" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="0.5" y="0.5" width="271" height="235" rx="14" fill="url(#glow)"/>
+<text x="20" y="34" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#0f766e" letter-spacing="1">IOT · 2026</text>
+<g transform="translate(44.8 9.6) scale(0.8)"><rect x="190" y="22" width="68" height="52" rx="10" fill="#0d9488" fill-opacity="0.08" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.5"/>
+<path class="trace" d="M194,48 h12 l5,-14 7,28 6,-22 4,8 h26" fill="none" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100"/></g>
+<text x="19" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0a192f" letter-spacing="-0.3">Pulse IoT</text>
+<text x="20" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#424a53">Device telemetry on plain shared</text>
+<text x="20" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#424a53">PHP hosting: rollups, alarms with</text>
+<text x="20" y="154" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#424a53">hysteresis, OTA firmware, reports.</text>
+<text x="20" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#424a53">No Composer, npm or build step.</text>
+<rect x="20.0" y="196" width="46.0" height="23" rx="11.5" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="43.0" y="211.1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#424a53" text-anchor="middle">PHP 8</text>
+<rect x="72.0" y="196" width="76.0" height="23" rx="11.5" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="110.0" y="211.1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#424a53" text-anchor="middle">Vanilla JS</text>
+<rect x="154.0" y="196" width="34.0" height="23" rx="11.5" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="171.0" y="211.1" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="400" fill="#424a53" text-anchor="middle">OTA</text>
+
+</svg>

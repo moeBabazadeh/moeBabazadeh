@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="214" viewBox="0 0 440 214" role="img" aria-label="Education Guide: Helps students starting university get to know their course, campus, city and career options. React Native app on both stores, plus the site.">
+<title>Education Guide: Helps students starting university get to know their course, campus, city and career options. React Native app on both stores, plus the site.</title>
+<style>
+.trace { animation: trace 2.6s ease-in-out infinite; }
+@keyframes trace { 0% { stroke-dashoffset: 100; } 55%, 100% { stroke-dashoffset: 0; } }
+.key { animation: press 2.4s ease-in-out infinite; }
+@keyframes press { 0%, 100% { fill-opacity: .9; } 50% { fill-opacity: .2; } }
+.wave { animation: wave 2.4s ease-out infinite; }
+@keyframes wave { 0%, 100% { opacity: .15; } 30% { opacity: 1; } }
+.led { animation: led 1.6s ease-in-out infinite; }
+@keyframes led { 50% { opacity: .25; } }
+.sparkle { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(.6); opacity: .5; } }
+.hl { animation: hl 3.2s ease-in-out infinite; }
+@keyframes hl { 0%, 100% { fill-opacity: .12; } 50% { fill-opacity: .35; } }
+.needle { animation: needle 3.2s ease-in-out infinite; }
+@keyframes needle { 0%, 100% { transform: rotate(-55deg); } 50% { transform: rotate(40deg); } }
+.spin { animation: spin 2.4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .trace, .key, .wave, .led, .sparkle, .hl, .needle, .spin { animation: none; }
+  .ping { display: none; }
+  .trace { stroke-dasharray: none; }
+}
+</style>
+
+<defs>
+  <radialGradient id="glow" cx="0.88" cy="0.2" r="0.5">
+    <stop offset="0" stop-color="#0d9488" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#0d9488" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="0.5" y="0.5" width="439" height="213" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="0.5" y="0.5" width="439" height="213" rx="14" fill="url(#glow)"/>
+<text x="26" y="40" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0f766e" letter-spacing="1.2">MOBILE APP · 2024</text>
+<text x="25" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="23" font-weight="700" fill="#0a192f" letter-spacing="-0.3">Education Guide</text>
+<text x="26" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#424a53">Helps students starting university get to know</text>
+<text x="26" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#424a53">their course, campus, city and career options.</text>
+<text x="26" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#424a53">React Native app on both stores, plus the site.</text>
+<rect x="26.0" y="168" width="37.4" height="24" rx="12.0" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-opacity="0.6"/>
+<text x="44.7" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0f766e" text-anchor="middle">iOS</text>
+<rect x="69.4" y="168" width="63.8" height="24" rx="12.0" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-opacity="0.6"/>
+<text x="101.3" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0f766e" text-anchor="middle">Android</text>
+<rect x="139.2" y="168" width="37.4" height="24" rx="12.0" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-opacity="0.6"/>
+<text x="157.9" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#0f766e" text-anchor="middle">Web</text>
+<rect x="182.6" y="168" width="44.0" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="204.6" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">Expo</text>
+<rect x="232.6" y="168" width="96.8" height="24" rx="12.0" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="281.0" y="183.96" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="400" fill="#424a53" text-anchor="middle">React Native</text>
+<rect x="366" y="27" width="36" height="58" rx="8" fill="#0d9488" fill-opacity="0.10" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="379" y1="34" x2="389" y2="34" stroke="#0d9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="373" y="42" width="22" height="7" rx="2" fill="#0d9488" fill-opacity="0.85"/>
+<rect x="373" y="53" width="22" height="7" rx="2" fill="#0d9488" fill-opacity="0.35"/>
+<rect x="373" y="64" width="22" height="7" rx="2" fill="#0d9488" fill-opacity="0.35"/>
+<circle cx="384" cy="78" r="2" fill="#0d9488"/>
+
+</svg>
