@@ -59,7 +59,7 @@ STATS = [
 WIDE = [
     {
         "slug": "neurobuild",
-        "label": "Neuroject · CTO · 2024 → now",
+        "label": "Neuroject · 2024 → now · CTO since 2026",
         "title": "NeuroBuild",
         "lines": [
             "The alignment layer for construction enterprises: a cloud-native, multi-tenant",
@@ -98,6 +98,23 @@ COMPANY = {
         ("globe", "Web", "10+ apps & sites"),
     ],
     "chips": ["React", "Next.js", "React Native", "Expo", "MUI", "Redux", "Firebase", "Office.js", "ESP-IDF", "Zephyr"],
+}
+
+# Figures from the one university I have numbers for, so the real totals are higher.
+ATTENDUM = {
+    "slug": "attendum",
+    "label": "0&1 · Hardware + apps · 2023 → 2025",
+    "title": "Attendum",
+    "tagline": "Attendance monitoring live at UK and US universities. At just one of them:",
+    "glyph": "beacon",
+    "tiles": [
+        ("chip", "200+", "devices online"),
+        ("database", "3M+", "records in 2 years"),
+        ("school", "100+", "classrooms"),
+        ("calendar", "10K+", "classes covered"),
+    ],
+    "platforms": ["iOS", "Android", "Hardware", "Web"],
+    "chips": ["ESP32", "nRF52840", "Zephyr", "Expo"],
 }
 
 # Devices that run in the field but have no public code.
@@ -146,31 +163,20 @@ HARDWARE = [
     },
 ]
 
+# Smaller 0&1 products, three to a row. Labels stay short to clear the glyph.
 PRODUCTS = [
     {
-        "slug": "attendum",
-        "label": "Hardware + apps · 2023 → 2025",
-        "title": "Attendum",
-        "lines": [
-            "Attendance monitoring live at universities in the",
-            "UK and US: firmware for the ESP32 card readers and",
-            "nRF52840 BLE beacons, and the iOS/Android app.",
-        ],
-        "platforms": ["iOS", "Android", "Hardware", "Web"],
-        "chips": ["ESP32", "Zephyr"],
-        "glyph": "beacon",
-    },
-    {
         "slug": "active-class",
-        "label": "LMS + proctoring · 2021 → 2024",
+        "label": "LMS · 2021 → 2024",
         "title": "Active-Class",
         "lines": [
-            "LMS with live exam proctoring and Azure Face",
-            "identity checks. I built the user dashboard",
-            "(1.4k commits), the Office add-in and the site.",
+            "An LMS with live exam proctoring",
+            "and Azure Face identity checks.",
+            "I built the user dashboard, the",
+            "Office add-in and the website.",
         ],
         "platforms": ["Web", "Office add-in"],
-        "chips": ["React", "Redux", "MUI", "Firebase"],
+        "chips": ["React"],
         "glyph": "slides",
     },
     {
@@ -178,25 +184,27 @@ PRODUCTS = [
         "label": "Mobile app · 2024",
         "title": "Education Guide",
         "lines": [
-            "Helps students starting university get to know",
-            "their course, campus, city and career options.",
-            "React Native app on both stores, plus the site.",
+            "Helps students starting university",
+            "get to know their course, campus,",
+            "city and career options. A React",
+            "Native app on both stores + site.",
         ],
         "platforms": ["iOS", "Android", "Web"],
-        "chips": ["Expo", "React Native"],
+        "chips": ["Expo"],
         "glyph": "phone",
     },
     {
         "slug": "school-how",
-        "label": "Online tutoring · 2022 → 2023",
+        "label": "Tutoring · 2022 → 2023",
         "title": "School.how",
         "lines": [
-            "Tutoring for every child: diagnostic tests,",
-            "courses, quizzes and 1-to-1 lessons over live",
-            "video. I built the dashboard and the website.",
+            "Tutoring for every child:",
+            "diagnostic tests, courses, quizzes",
+            "and live 1-to-1 video lessons.",
+            "I built the dashboard and site.",
         ],
         "platforms": ["Web"],
-        "chips": ["Next.js", "MUI", "VideoSDK", "Uppy"],
+        "chips": ["Next.js", "MUI", "VideoSDK"],
         "glyph": "video",
     },
 ]
@@ -615,6 +623,14 @@ def icon(kind, cx, cy, t):
     if kind == "signal":
         return "".join(f'<rect x="{cx-7+i*4}" y="{cy+6-3*(i+1)}" width="2.6" height="{3*(i+1)}" rx="0.8" fill="{a}"/>'
                        for i in range(4))
+    if kind == "school":
+        return (f'<path d="M{cx-8.5},{cy-2} L{cx},{cy-8} L{cx+8.5},{cy-2} z" {stroke}/>'
+                f'<path d="M{cx-6.5},{cy-2} v9 h13 v-9 M{cx-1.8},{cy+7} v-4.5 h3.6 v4.5 M{cx-4},{cy+1} v1 M{cx+4},{cy+1} v1" {stroke}/>')
+    if kind == "calendar":
+        return (f'<rect x="{cx-7.5}" y="{cy-5.5}" width="15" height="13" rx="2" {stroke}/>'
+                f'<path d="M{cx-7.5},{cy-1.5} h15 M{cx-3.5},{cy-8} v4 M{cx+3.5},{cy-8} v4" {stroke}/>'
+                + "".join(f'<rect x="{cx-4.5+c*3.6:.1f}" y="{cy+1+r*3}" width="1.8" height="1.8" rx="0.4" fill="{a}"/>'
+                          for r in range(2) for c in range(3)))
     raise ValueError(kind)
 
 
@@ -749,14 +765,16 @@ def card(c, t):
     return svg(W, H, body, f"{c['title']}: {' '.join(c['lines'])}", GLYPH_CSS)
 
 
-def hobby(c, t):
+def small(c, t):
+    """Narrow card, three to a row: four lines of text, then platforms (highlighted) and chips."""
     W, H = 272, 236
+    platforms = c.get("platforms", [])
     body = f"""{surface(W, H, t, glow=(0.85, 0.15, 0.55))}
 {text(20, 34, c['label'].upper(), size=10, fill=t['accent_text'], font=MONO, spacing=1)}
 {scaled(glyph(c['glyph'], W - 48, 48, t), W - 48, 48, 0.8)}
 {text(19, 92, c['title'], size=18, fill=t['heading'], weight=700, spacing=-0.3)}
 {chr(10).join(text(20, 118 + i * 18, line, size=12.5, fill=t['body']) for i, line in enumerate(c['lines']))}
-{chips(20, H - 40, c['chips'], t, size=10)}
+{chips(20, H - 40, platforms + c['chips'], t, size=10, accent=len(platforms))}
 """
     return svg(W, H, body, f"{c['title']}: {' '.join(c['lines'])}", GLYPH_CSS)
 
@@ -829,10 +847,11 @@ def main():
             "stats": stats(t),
             **{f"card-{c['slug']}": wide(c, t) for c in WIDE},
             f"card-{COMPANY['slug']}": tiles_card(COMPANY, t),
-            **{f"card-{c['slug']}": card(c, t) for c in PRODUCTS},
+            f"card-{ATTENDUM['slug']}": tiles_card(ATTENDUM, t),
+            **{f"card-{c['slug']}": small(c, t) for c in PRODUCTS},
             f"card-{LOGGER['slug']}": tiles_card(LOGGER, t),
             **{f"card-{c['slug']}": card(c, t) for c in HARDWARE},
-            **{f"hobby-{c['slug']}": hobby(c, t) for c in HOBBIES},
+            **{f"hobby-{c['slug']}": small(c, t) for c in HOBBIES},
             "journey": journey(t),
             **{f"link-{l['slug']}": link_pill(l, t) for l in LINKS},
             **{f"store-{s['slug']}": store_pill(s, t) for s in STORES},

@@ -24,7 +24,7 @@
 
 I've been building since 2007, from robots, industrial controllers and GSM weather stations still running after 15 years to web, mobile and AI platforms at early-stage and growth startups. I like owning the architecture, setting how a team builds, and keeping the engineering pointed at what the business actually needs.
 
-Today I'm CTO at **[Neuroject](https://neuroject.com)**, leading the platform that connects BIM, schedules, budgets and risks for construction enterprises, and bringing AI into it. Before that I spent four years at **[0&1](https://0and1.co.uk)**, leading the frontend and going well past it: iOS and Android apps on both stores, firmware for attendance hardware in use at universities, and the dashboards and sites around them. Almost all of it lives in private repos, so the contribution graph below says more than the repo list does.
+Today I'm CTO at **[Neuroject](https://neuroject.com)**, leading the platform that connects BIM, schedules, budgets and risks for construction enterprises, and bringing AI into it. Before that I spent four years at **[0&1](https://0and1.co.uk)**, leading the frontend and going well past it: iOS and Android apps on both stores, firmware for attendance hardware with 200+ devices online at a single university, and the dashboards and sites around them. Almost all of it lives in private repos, so the contribution graph below says more than the repo list does.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
@@ -58,28 +58,29 @@ Today I'm CTO at **[Neuroject](https://neuroject.com)**, leading the platform th
   </picture></a>
 </p>
 
-<p align="center">
+<p>
   <a href="https://attendum.com"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-attendum-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/card-attendum-light.svg">
-    <img alt="Attendum: attendance monitoring live at universities, with ESP32 card readers, nRF52840 BLE beacons and an iOS and Android app." src="assets/card-attendum-light.svg" width="416">
+    <img alt="Attendum: attendance monitoring live at UK and US universities, with ESP32 card readers, nRF52840 BLE beacons and an iOS and Android app. At one university alone: 200+ devices online, 3M+ records in two years, 100+ classrooms and 10K+ classes covered." src="assets/card-attendum-light.svg" width="100%">
   </picture></a>
+</p>
+
+<p align="center">
   <a href="https://active-class.com"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-active-class-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/card-active-class-light.svg">
-    <img alt="Active-Class: an LMS with live exam proctoring, its user dashboard, PowerPoint and Word add-in, and website." src="assets/card-active-class-light.svg" width="416">
+    <img alt="Active-Class: an LMS with live exam proctoring, its user dashboard, PowerPoint and Word add-in, and website." src="assets/card-active-class-light.svg" width="272">
   </picture></a>
-</p>
-<p align="center">
   <a href="https://education.guide"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-education-guide-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/card-education-guide-light.svg">
-    <img alt="Education Guide: a React Native app on both stores that helps students starting university." src="assets/card-education-guide-light.svg" width="416">
+    <img alt="Education Guide: a React Native app on both stores that helps students starting university." src="assets/card-education-guide-light.svg" width="272">
   </picture></a>
   <a href="https://school.how"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/card-school-how-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/card-school-how-light.svg">
-    <img alt="School.how: online tutoring with diagnostic tests, courses, quizzes and live 1-to-1 lessons." src="assets/card-school-how-light.svg" width="416">
+    <img alt="School.how: online tutoring with diagnostic tests, courses, quizzes and live 1-to-1 lessons." src="assets/card-school-how-light.svg" width="272">
   </picture></a>
 </p>
 
