@@ -171,14 +171,14 @@ Merged upstream into packages downloaded **300k+ times a week**:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/journey-light.svg">
-  <img alt="Journey: CTO at Neuroject since 2026 and Chief Full-Stack Engineer there from 2024; Chief Full-Stack Engineer at Neuroship (contract) since 2026; Lead Frontend Developer then Technical Consultant at 0&amp;1, 2021 to 2024; Senior Frontend Developer at Alget.nl, 2020 to 2021; Software then Senior Software Engineer at Niknam Electronic Rayan, 2012 to 2020; freelance web developer, 2007 to 2012; BSc Electrical Engineering (Control) and MSc Nanotechnology, University of Tabriz." src="assets/journey-light.svg" width="100%">
+  <img alt="Journey: CTO at Neuroject since 2026 and Chief Full-Stack Engineer there from 2024; Chief Full-Stack Engineer at Neuroship (contract) since 2026; Lead Frontend Developer then Technical Consultant at 0&amp;1, 2021 to 2024; Senior Frontend Developer at Alget.nl, 2020 to 2021; Software then Senior Software Engineer at Niknam Electronic Rayan, 2012 to 2020; freelance web developer, 2007 to 2012; BSc Electrical Engineering (Control) and MSc Nanoelectronics Engineering, University of Tabriz." src="assets/journey-light.svg" width="100%">
 </picture>
 
 **Roots in robotics and control**
 
 - 🤖 **RoboCup:** 1st place in the Deminer Technical Challenge at IranOpen 2010, a five-robot Small Size League soccer team (2009–2011), and technical committee member at IranOpen 2013 and 2014 and AUTCUP 2013.
 - 🥉 **Bronze medal** in Mobile Robotics at the 11th National Skills Competitions (2010), and a pipe-inspection crawler robot with a swivelling camera and a 200 m umbilical.
-- 🎓 **BSc Electrical Engineering, Control Systems** (thesis: a two-wheel self-balancing robot with real-time fuzzy control) and **MSc Nanotechnology**, University of Tabriz.
+- 🎓 **BSc Electrical Engineering, Control Systems** (thesis: a two-wheel self-balancing robot with real-time fuzzy control) and **MSc Nanoelectronics Engineering**, University of Tabriz.
 - 📄 **Paper:** [Design, Engineering and Optimization of a Grid-Tie Multicell Inverter for Energy Storage Applications](https://arxiv.org/abs/1708.08008) (arXiv, 2017).
 
 ### Toolbox

@@ -266,7 +266,7 @@ JOURNEY = [
      "IoT platforms and connected devices: monitoring, live GPS tracking and data visualisation.", False),
     ("2007 → 2012", "Freelance", "Web developer",
      "Websites and web apps in PHP, JavaScript and jQuery.", False),
-    ("2008 → 2016", "University of Tabriz", "BSc Electrical Eng. (Control) · MSc Nanotechnology",
+    ("2008 → 2016", "University of Tabriz", "BSc Electrical Eng. (Control) · MSc Nanoelectronics Eng.",
      "Control systems, robotics and RoboCup.", None),
 ]
 
